@@ -42,7 +42,7 @@ jobs:
     - name: Save artifact
       run: mkdir staging && cp mongodb-quartz-properties-package/target/mongodb-quartz-properties-package*.zip staging
     - name: Persist artifact  
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v4
       with:
         name: mongodb-quartz-properties-package
         path: staging
