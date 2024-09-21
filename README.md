@@ -1,0 +1,1 @@
+# mongodb-quartz-properties
